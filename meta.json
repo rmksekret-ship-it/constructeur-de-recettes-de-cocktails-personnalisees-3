@@ -1,0 +1,46 @@
+{
+  "name": "Constructeur de Recettes de Cocktails Personnalisées",
+  "description": "Composez vos propres recettes de cocktails en choisissant parmi une vaste bibliothèque d",
+  "theme": "generator",
+  "design_theme": "serious-fun",
+  "structure_preset": "story-commerce",
+  "render_direction": "signal-bento",
+  "page_blueprint": "dossier-rail",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://constructeur-de-recettes-de-cocktails-personnalisees-3.onrender.com",
+  "created": "2026-06-11T02:43:31.646106+00:00",
+  "owner_user_id": "user-1774825923424-663",
+  "owner_username": "inso",
+  "owner_display_name": "Inso",
+  "provider_space_id": "new-sites",
+  "provider_space_name": "New Sites",
+  "status": "generated",
+  "run_id": "run-1781145573017",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: poster",
+    "Proof module: steps",
+    "Design theme: Serious Fun",
+    "Render direction: Signal Bento",
+    "Page blueprint: Dossier Rail",
+    "Runtime mode: document_generator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
