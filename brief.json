@@ -1,0 +1,293 @@
+{
+  "run_id": "run-1781145573017",
+  "job_index": 3,
+  "params": {
+    "owner_user_id": "user-1774825923424-663",
+    "owner_username": "inso",
+    "owner_display_name": "Inso",
+    "count": 3,
+    "archetype": "generator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Pour les amateurs de mixologie désirant expérimenter et créer des boissons uniques. Interface ludique et inte…",
+    "notes": "Composez vos propres recettes de cocktails en choisissant parmi une vaste bibliothèque d'ingrédients, de techniques et de verres. Enregistrez vos créations pour les partager.\nL'ambiance sera festive et conviviale. Utilisation de visuels attrayants et d'une interaction fluide pour stimuler l'envie de créer.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "",
+    "network_hosting_pool": "",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "new-sites",
+    "provider_space_name": "New Sites",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": false,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "tool",
+      "generator"
+    ],
+    "forced_design_theme": "serious-fun",
+    "forced_structure_preset": "story-commerce",
+    "site_idea_title": "Constructeur de Recettes de Cocktails Personnalisées",
+    "site_idea_summary": "Composez vos propres recettes de cocktails en choisissant parmi une vaste bibliothèque d'ingrédients, de techniques et de verres. Enregistrez vos créations pour les partager."
+  },
+  "site_spec": {
+    "slug": "constructeur-de-recettes-de-cocktails-personnalisees-3",
+    "theme": {
+      "name": "Serious Fun",
+      "slug": "serious-fun",
+      "eyebrow": "Playful Precision",
+      "family": "serious-fun",
+      "moods": [
+        "playful",
+        "smart",
+        "optimistic",
+        "professional"
+      ],
+      "archetypes": [
+        "tool",
+        "generator"
+      ],
+      "niches": [
+        "team tools",
+        "education",
+        "community tools",
+        "simple utility",
+        "content tools"
+      ],
+      "keywords": [
+        "joy",
+        "playful",
+        "smart",
+        "friendly",
+        "color"
+      ],
+      "token_index": [
+        "color",
+        "community",
+        "content",
+        "education",
+        "friendly",
+        "fun",
+        "generator",
+        "joy",
+        "optimistic",
+        "playful",
+        "precision",
+        "professional",
+        "serious",
+        "simple",
+        "smart",
+        "team",
+        "tool",
+        "tools",
+        "utility"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Outfit\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "ribbons",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(150deg, #eff6ff 0%, #dbeafe 32%, #fde68a 100%)",
+        "surface": "rgba(255,255,255,0.86)",
+        "surface_border": "rgba(37,99,235,0.12)",
+        "text": "#172554",
+        "muted": "#475569",
+        "accent": "#2563eb",
+        "accent_alt": "#f97316",
+        "hero_glow": "rgba(249, 115, 22, 0.15)",
+        "button_text": "#f8fafc",
+        "panel_alt": "rgba(255,255,255,0.66)",
+        "shadow": "0 24px 62px rgba(37, 99, 235, 0.1)",
+        "input_fill": "rgba(255,255,255,0.54)"
+      }
+    },
+    "structure": {
+      "name": "Story Commerce",
+      "slug": "story-commerce",
+      "hero_variant": "poster",
+      "proof_variant": "steps",
+      "section_order": [
+        "features",
+        "proof",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "story-commerce",
+      "moods": [
+        "bold",
+        "editorial",
+        "conversion"
+      ],
+      "archetypes": [
+        "generator",
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "creator",
+        "consumer",
+        "travel",
+        "marketing"
+      ],
+      "keywords": [
+        "story",
+        "banner",
+        "campaign",
+        "conversion"
+      ],
+      "token_index": [
+        "banner",
+        "bold",
+        "calculator",
+        "campaign",
+        "commerce",
+        "consumer",
+        "conversion",
+        "creator",
+        "editorial",
+        "faq",
+        "features",
+        "generator",
+        "marketing",
+        "poster",
+        "proof",
+        "seo",
+        "steps",
+        "story",
+        "tool",
+        "travel"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Constructeur de Recettes de Cocktails Personnalisées",
+    "tagline": "Votre laboratoire de mixologie personnel",
+    "description": "Composez vos propres recettes de cocktails en choisissant parmi une vaste bibliothèque d",
+    "feature_prefix": "Bloc",
+    "action": "Générer le document",
+    "cta_primary": "Je Crée Mon Cocktail !",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "name",
+        "label": "Nom ou entreprise",
+        "type": "text",
+        "placeholder": "Studio Horizon",
+        "weight": 1.0
+      },
+      {
+        "id": "goal",
+        "label": "Objectif du document",
+        "type": "text",
+        "placeholder": "confirmation de demande",
+        "weight": 1.0
+      },
+      {
+        "id": "details",
+        "label": "Détails utiles",
+        "type": "text",
+        "placeholder": "date, montant, référence",
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Brouillon généré",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Je Crée Mon Cocktail !",
+      "Brouillon généré",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Brouillon généré",
+    "result_unit": "",
+    "runtime_mode": "document_generator",
+    "page_variant": "console",
+    "faq_topic": "Constructeur de Recettes de Cocktails Personnalisées",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Constructeur de Recettes de Cocktails Personnalisées ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Constructeur de Recettes de Cocktails Personnalisées et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Constructeur de Recettes de Cocktails Personnalisées | Votre laboratoire de mixologie personnel</title>\n    <meta name=\"description\" content=\"Composez vos propres recettes de cocktails en choisissant parmi une vaste bibliothèque d\">\n    <style>\n        :root {\n            --color-primary: #8B0000;\n            --color-secondary: #FFD700;\n            --color-background: #F8F8F8;\n            --color-text-dark: #333333;\n            --color-text-light: #FFFFFF;\n            --font-serif: 'Georgia', serif;\n            --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n            --shadow-subtle: 0 4px 8px rgba(0,0,0,0.05);\n            --border-radius-soft: 8px;\n        }\n\n        body {\n            font-family: var(--font-sans);\n            color: var(--color-text-dark);\n            background-color: var(--color-background);\n            margin: 0;\n            padding: 0;\n            line-height: 1.6;\n        }\n\n        h1, h2, h3 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            text-align: center;\n        }\n\n        h1 {\n            font-size: 3em;\n            margin-bottom: 0.5em;\n        }\n\n        h2 {\n            font-size: 2em;\n            margin-top: 2em;\n            margin-bottom: 1em;\n        }\n\n        p {\n            margin-bottom: 1em;\n        }\n\n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n\n        header {\n            background-color: var(--color-primary);\n            color: var(--color-text-light);\n            padding: 40px 20px;\n            text-align: center;\n        }\n\n        header h1 {\n            color: var(--color-secondary);\n            font-size: 3.5em;\n            margin-bottom: 0.2em;\n        }\n\n        header p {\n            font-size: 1.2em;\n            max-width: 800px;\n            margin: 0 auto;\n        }\n\n        .hero-banner {\n            background-image: url('https://images.unsplash.com/photo-1551024709-8f016e78b7a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMjh8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMHBhcnR5fGVufDB8fHx8MTcwMTU1NjgzMXww&ixlib=rb-4.0.3&q=80&w=1080'); /* Festive cocktail party */\n            background-size: cover;\n            background-position: center;\n            height: 400px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            color: var(--color-text-light);\n            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);\n            margin-bottom: 40px;\n        }\n\n        .hero-banner h2 {\n            font-size: 3em;\n            color: var(--color-secondary);\n            text-align: center;\n            padding: 20px;\n            background-color: rgba(0,0,0,0.3);\n            border-radius: var(--border-radius-soft);\n        }\n\n        .section-panel {\n            background-color: var(--color-text-light);\n            padding: 30px;\n            border-radius: var(--border-radius-soft);\n            box-shadow: var(--shadow-subtle);\n            margin-bottom: 30px;\n        }\n\n        .cta-button {\n            display: inline-block;\n            background-color: var(--color-secondary);\n            color: var(--color-primary);\n            padding: 15px 30px;\n            border-radius: 50px;\n            text-decoration: none;\n            font-weight: bold;\n            font-size: 1.1em;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            border: none;\n            cursor: pointer;\n        }\n\n        .cta-button:hover {\n            background-color: #FFC700;\n            transform: translateY(-2px);\n        }\n\n        .secondary-cta-button {\n            display: inline-block;\n            background-color: transparent;\n            color: var(--color-primary);\n            padding: 15px 30px;\n            border-radius: 50px;\n            text-decoration: none;\n            font-weight: bold;\n            font-size: 1.1em;\n            border: 2px solid var(--color-primary);\n            transition: background-color 0.3s ease, color 0.3s ease;\n            cursor: pointer;\n        }\n\n        .secondary-cta-button:hover {\n            background-color: var(--color-primary);\n            color: var(--color-text-light);\n        }\n\n        .generator-area {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 30px;\n        }\n\n        .input-card, .output-card {\n            background-color: var(--color-text-light);\n            padding: 30px;\n            border-radius: var(--border-radius-soft);\n            box-shadow: var(--shadow-subtle);\n        }\n\n        form {\n            display: grid;\n            gap: 15px;\n        }\n\n        label {\n            font-weight: bold;\n            margin-bottom: 5px;\n            display: block;\n        }\n\n        select, textarea {\n            width: 100%;\n            padding: 10px;\n            border: 1px solid #DDDDDD;\n            border-radius: 4px;\n            font-family: var(--font-sans);\n            font-size: 1em;\n            box-sizing: border-box;\n        }\n\n        textarea {\n            resize: vertical;\n            min-height: 80px;\n        }\n\n        .output-card pre {\n            background-color: #EDEDED;\n            padding: 15px;\n            border-radius: var(--border-radius-soft);\n            white-space: pre-wrap;\n            word-wrap: break-word;\n            font-family: monospace;\n            color: var(--color-text-dark);\n            max-height: 400px;\n            overflow-y: auto;\n        }\n\n        .output-group {\n            margin-bottom: 1em;\n            border-bottom: 1px dashed #CCC;\n            padding-bottom: 1em;\n        }\n\n        .output-group:last-child {\n            border-bottom: none;\n            padding-bottom: 0;\n        }\n\n        .output-group h3 {\n            text-align: left;\n            font-size: 1.2em;\n            margin-top: 0;\n            color: var(--color-primary);\n        }\n\n        .output-group ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n        }\n\n        .output-group li {\n            background-color: #FFFACD;\n            border-left: 5px solid var(--color-secondary);\n            padding: 10px;\n            margin-bottom: 8px;\n            border-radius: 4px;\n            font-style: italic;\n        }\n\n        .features-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 20px;\n            margin-top: 40px;\n        }\n\n        .feature-item {\n            background-color: var(--color-text-light);\n            padding: 25px;\n            border-radius: var(--border-radius-soft);\n            box-shadow: var(--shadow-subtle);\n            text-align: center;\n        }\n\n        .feature-item h3 {\n            color: var(--color-primary);\n            font-size: 1.5em;\n            margin-bottom: 10px;\n        }\n\n        .feature-item p {\n            font-size: 0.95em;\n            color: #666;\n        }\n\n        .footer-seo {\n            background-color: #EEE;\n            padding: 40px 20px;\n            text-align: center;\n            color: #555;\n            font-size: 0.9em;\n            border-top: 1px solid #DDD;\n        }\n\n        .footer-seo h3 {\n            font-size: 1.5em;\n            margin-bottom: 20px;\n            color: var(--color-primary);\n        }\n\n        .footer-seo p {\n            margin-bottom: 15px;\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n            text-align: justify;\n        }\n\n        .footer-seo ul {\n            list-style: none;\n            padding: 0;\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n            gap: 10px;\n        }\n\n        .footer-seo li {\n            display: inline-block;\n            margin: 5px 10px;\n        }\n\n        .footer-seo a {\n            color: var(--color-primary);\n            text-decoration: none;\n            border-bottom: 1px dotted var(--color-primary);\n        }\n\n        .footer-seo a:hover {\n            color: var(--color-secondary);\n            border-bottom: 1px solid var(--color-secondary);\n        }\n\n        @media (min-width: 768px) {\n            .generator-area {\n                grid-template-columns: 1fr 1fr;\n            }\n            header h1 {\n                font-size: 4em;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://constructeur-de-recettes-de-cocktails-personnalisees-3.onrender.com\">\n    <meta property=\"og:title\" content=\"Constructeur de Recettes de Cocktails Personnalisées\">\n    <meta property=\"og:description\" content=\"Composez vos propres recettes de cocktails en choisissant parmi une vaste bibliothèque d\">\n    <meta property=\"og:url\" content=\"https://constructeur-de-recettes-de-cocktails-personnalisees-3.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Constructeur de Recettes de Cocktails Personnalisées\", \"description\": \"Composez vos propres recettes de cocktails en choisissant parmi une vaste bibliothèque d\", \"url\": \"https://constructeur-de-recettes-de-cocktails-personnalisees-3.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"constructeur-de-recettes-de-cocktails-personnalisees-3\" data-runtime-mode=\"document_generator\">\n\n    <header>\n        <div class=\"container\">\n            <h1>L'Alchimiste du Bar</h1>\n            <p>Donnez vie à vos idées les plus pétillantes ! Créez, inventez, et partagez vos recettes de cocktails uniques.</p>\n        </div>\n    </header>\n\n    <div class=\"hero-banner\">\n        <h2>Votre laboratoire de mixologie personnel</h2>\n    </div>\n\n    <div class=\"container\">\n        <section class=\"section-panel\">\n            <h2>Imaginez. Composez. Dégustez.</h2>\n            <p>Notre interface intuitive vous ouvre les portes d'une bibliothèque d'ingrédients, de techniques et de verres pour des créations sans limites. Du classique revisité à l'audace pure, tout est à portée de main pour vos soirées et moments de détente.</p>\n            <div style=\"text-align: center; margin-top: 30px;\">\n                <button id=\"scroll-to-tool\" class=\"cta-button\">Je Crée Mon Cocktail !</button>\n            </div>\n        </section>\n\n        <section id=\"tool-section\" class=\"generator-area\">\n            <div class=\"input-card\">\n                <h2>Votre Recette, Votre Touche</h2>\n                <form id=\"tool-form\">\n                    <label for=\"base-alcool\">Base d'alcool préférée :</label>\n                    <select id=\"base-alcool\">\n                        <option value=\"rhum\">Rhum</option>\n                        <option value=\"gin\">Gin</option>\n                        <option value=\"vodka\">Vodka</option>\n                        <option value=\"tequila\">Tequila</option>\n                        <option value=\"whisky\">Whisky</option>\n                        <option value=\"sans alcool\">Sans alcool (Mocktail)</option>\n                    </select>\n\n                    <label for=\"saveur-dominante\">Saveur dominante recherchée :</label>\n                    <select id=\"saveur-dominante\">\n                        <option value=\"fruitee\">Fruitée</option>\n                        <option value=\"acide\">Acide</option>\n                        <option value=\"amere\">Amère</option>\n                        <option value=\"douce\">Douce</option>\n                        <option value=\"epicee\">Épicée</option>\n                        <option value=\"herbacée\">Herbacée</option>\n                    </select>\n\n                    <label for=\"type-verre\">Type de verre idéal :</label>\n                    <select id=\"type-verre\">\n                        <option value=\"tumbler\">Tumbler</option>\n                        <option value=\"verre a vin\">Verre à vin</option>\n                        <option value=\"flute\">Flûte</option>\n                        <option value=\"coupette\">Coupette</option>\n                        <option value=\"shooter\">Shooter</option>\n                        <option value=\"peu importe\">Peu importe</option>\n                    </select>\n\n                    <label for=\"ingredients-speciaux\">Ingrédients ou humeur du moment (optionnel) :</label>\n                    <textarea id=\"ingredients-speciaux\" placeholder=\"Ex: concombre, piment, envie de fraîcheur...\"></textarea>\n\n                    <button type=\"submit\" id=\"tool-submit\" class=\"cta-button\" style=\"width: 100%; margin-top: 20px;\">Générer Ma Recette !</button>\n                </form>\n            </div>\n\n            <div class=\"output-card\">\n                <h2>Vos Créations Inspirées</h2>\n                <div id=\"tool-result\">\n                    <p id=\"result-detail\">Vos recettes générées apparaîtront ici. Laissez libre cours à votre imagination !</p>\n                </div>\n                <div style=\"text-align: center; margin-top: 30px;\">\n                    <button class=\"secondary-cta-button\" data-affiliate-slot=\"share-recipe\">Partager cette découverte</button>\n                </div>\n            </div>\n        </section>\n\n        <section class=\"section-panel features-grid\">\n            <div class=\"feature-item\">\n                <h3>Vaste Bibliothèque</h3>\n                <p>Accédez à des centaines d'ingrédients, des sirops aux spiritueux rares, pour explorer toutes les combinaisons possibles.</p>\n            </div>\n            <div class=\"feature-item\">\n                <h3>Techniques Éprouvées</h3>\n                <p>Maîtrisez les techniques de pro : shaker, muddler, filtrage... pour un résultat toujours parfait.</p>\n            </div>\n            <div class=\"feature-item\">\n                <h3>Verres et Garnitures</h3>\n                <p>Choisissez le verre qui sublimera votre création et ajoutez la touche finale parfaite.</p>\n            </div>\n            <div class=\"feature-item\">\n                <h3>Sauvegardez & Partagez</h3>\n                <p>Enregistrez vos recettes favorites et partagez-les avec vos amis ou la communauté des alchimistes.</p>\n            </div>\n        </section>\n    </div>\n\n    <footer class=\"footer-seo\">\n        <h3>Optimisé pour les Amateurs de Cocktails en France</h3>\n        <p>Que vous cherchiez à créer un <a href=\"#\">cocktail rhum fruité</a>, un <a href=\"#\">mocktail rafraîchissant</a> pour l'été, ou un <a href=\"#\">gin tonic épicé</a>, notre générateur est l'outil parfait. Découvrez comment <a href=\"#\">faire des cocktails maison</a> avec des <a href=\"#\">recettes de cocktails faciles</a> et originales. Fini les recherches fastidieuses de <a href=\"#\">idées cocktail soirée</a> ! Devenez un véritable <a href=\"#\">mixologue amateur</a> et impressionnez vos amis avec des <a href=\"#\">boissons créatives</a>. Que vous soyez intéressé par les <a href=\"#\">cocktails classiques</a> ou les <a href=\"#\">recettes de cocktails innovants</a>, notre plateforme vous aide à explorer l'univers de la <a href=\"#\">mixologie créative</a>.</p>\n        <p>Un problème ? Une suggestion ? Contactez-nous à l'adresse support@alchimistebarquebec.com.</p>\n    </footer>\n\n    <script>\n        document.getElementById('scroll-to-tool').addEventListener('click', function() {\n            document.getElementById('tool-section').scrollIntoView({ behavior: 'smooth' });\n        });\n\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const baseAlcool = document.getElementById('base-alcool').value;\n            const saveurDominante = document.getElementById('saveur-dominante').value;\n            const typeVerre = document.getElementById('type-verre').value;\n            const ingredientsSpeciaux = document.getElementById('ingredients-speciaux').value.trim();\n\n            const resultDiv = document.getElementById('tool-result');\n            resultDiv.innerHTML = '';\n\n            const generateRecipe = (base, saveur, verre, extra) => {\n                let recipe = {\n                    title: '',\n                    ingredients: [],\n                    preparation: '',\n                    garniture: '',\n                    comment: ''\n                };\n\n                // Base spirit\n                switch(base) {\n                    case 'rhum':\n                        recipe.ingredients.push('60 ml Rhum (blanc ou ambré selon saveur)');\n                        break;\n                    case 'gin':\n                        recipe.ingredients.push('50 ml Gin de qualité');\n                        break;\n                    case 'vodka':\n                        recipe.ingredients.push('50 ml Vodka premium');\n                        break;\n                    case 'tequila':\n                        recipe.ingredients.push('60 ml Tequila Blanco ou Reposado');\n                        break;\n                    case 'whisky':\n                        recipe.ingredients.push('60 ml Whisky (bourbon ou écossais)');\n                        break;\n                    case 'sans alcool':\n                        recipe.ingredients.push('100 ml Base non alcoolisée (ex: jus de fruits variés)');\n                        break;\n                }\n\n                // Dominant flavor\n                switch(saveur) {\n                    case 'fruitee':\n                        recipe.ingredients.push('30 ml Jus de fruits (ananas, passion, mangue)');\n                        recipe.ingredients.push('15 ml Sirop de fruits (grenadine, framboise)');\n                        recipe.preparation += 'Bien agiter tous les ingrédients avec de la glace.';\n                        recipe.garniture = 'Tranche de fruit frais et une feuille de menthe.';\n                        recipe.comment = 'Un délice exotique et rafraîchissant.';\n                        break;\n                    case 'acide':\n                        recipe.ingredients.push('30 ml Jus de citron vert frais');\n                        recipe.ingredients.push('20 ml Sirop de sucre de canne');\n                        recipe.preparation += 'Agiter vigoureusement avec de la glace et filtrer.';\n                        recipe.garniture = 'Zeste de citron vert.';\n                        recipe.comment = 'Un coup de fouet vivifiant, parfait pour réveiller les papilles.';\n                        break;\n                    case 'amere':\n                        recipe.ingredients.push('20 ml Amer (Campari, Aperol) ou Vermouth sec');\n                        recipe.ingredients.push('15 ml Sirop simple');\n                        recipe.preparation += 'Mélanger délicatement au verre avec de la glace, ou remuer.';\n                        recipe.garniture = 'Tranche d\\'orange.';\n                        recipe.comment = 'Une boisson sophistiquée avec du caractère.';\n                        break;\n                    case 'douce':\n                        recipe.ingredients.push('30 ml Liqueur (Crème de cassis, Cointreau)');\n                        recipe.ingredients.push('Jus de fruits doux (pomme, litchi) pour allonger');\n                        recipe.preparation += 'Verser les ingrédients sur de la glace et remuer doucement.';\n                        recipe.garniture = 'Cerise au marasquin ou quelques baies.';\n                        recipe.comment = 'Une douceur réconfortante, idéale pour les palais gourmands.';\n                        break;\n                    case 'epicee':\n                        recipe.ingredients.push('10 ml Sirop épicé (gingembre, piment) ou quelques gouttes de bitters');\n                        recipe.ingredients.push('Allonger avec du soda ou de l\\'eau pétillante');\n                        recipe.preparation += 'Mélanger les alcools et sirops, puis compléter avec le soda sur glace.';\n                        recipe.garniture = 'Tranche de piment ou bâton de cannelle.';\n                        recipe.comment = 'Une expérience audacieuse et chaleureuse.';\n                        break;\n                    case 'herbacée':\n                        recipe.ingredients.push('Quelques feuilles de menthe ou basilic');\n                        recipe.ingredients.push('15 ml Liqueur d\\'herbes ou de fleurs (St-Germain, Chartreuse)');\n                        recipe.preparation += 'Muddler les herbes, ajouter les liquides, agiter avec de la glace.';\n                        recipe.garniture = 'Brindille d\\'herbe fraîche.';\n                        recipe.comment = 'Une fraîcheur naturelle et élégante.';\n                        break;\n                }\n\n                // Glass type\n                recipe.comment += ` Servir dans un ${verre}.`;\n\n                // Special ingredients/mood\n                if (extra) {\n                    recipe.ingredients.push(`Note spéciale : ${extra}`);\n                    recipe.comment += ` Une touche ${extra.toLowerCase()} est incluse pour votre plaisir.`;\n                }\n                \n                recipe.title = `Le ${base.charAt(0).toUpperCase() + base.slice(1)} ${saveur.charAt(0).toUpperCase() + saveur.slice(1)} Étoilé`;\n                if (base === 'sans alcool') recipe.title = `Le Mocktail ${saveur.charAt(0).toUpperCase() + saveur.slice(1)} Zesté`;\n\n\n                return recipe;\n            };\n\n            const recipe = generateRecipe(baseAlcool, saveurDominante, typeVerre, ingredientsSpeciaux);\n\n            const outputHtml = `\n                <div class=\"output-group\">\n                    <h3>Nom Suggéré</h3>\n                    <p>${recipe.title}</p>\n                </div>\n                <div class=\"output-group\">\n                    <h3>Ingrédients</h3>\n                    <ul>\n                        ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}\n                    </ul>\n                </div>\n                <div class=\"output-group\">\n                    <h3>Préparation</h3>\n                    <p>${recipe.preparation}</p>\n                </div>\n                <div class=\"output-group\">\n                    <h3>Garniture & Présentation</h3>\n                    <p>${recipe.garniture} ${recipe.comment}</p>\n                </div>\n            `;\n\n            resultDiv.innerHTML = outputHtml;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
